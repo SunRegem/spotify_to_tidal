@@ -1,14 +1,15 @@
 spotify:
-  client_id: your_client_id
-  client_secret: your_client_secret
-  username: your_spotify_username
-  redirect_uri: http://localhost:8888/callback
+  client_id: d93612e1cd8744c5a3c1951075c03902
+  client_secret: 5d4d00d31df44dfa90e0c977aba41534
+  username: z7gpo4dn8ekqawcrln0420x26
+  redirect_uri: http://SpotifytoTidal:8080
 
 
 # uncomment this block if you want to only sync specific playlist IDs
 #sync_playlists:
-#  - spotify_id: 1ABCDEqsABCD6EaABCDa0a
-#    tidal_id: a0b1234-0a1b-012a-abcd-a1b234c5d6d7
+sync_playlists:
+  - spotify_id: https://open.spotify.com/user/z7gpo4dn8ekqawcrln0420x26?si=34a38688f0a94f56
+    tidal_id: https://tidal.com/browse/user/65565825
 
 # uncomment this block if you want to sync all playlists in the account with some exceptions
 #excluded_playlists:
